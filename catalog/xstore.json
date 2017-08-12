@@ -7,6 +7,7 @@
       	{
            "name": "microzed",
 		   "display": "Microzed",
+		   "revision": 1.2,
 		   "revisions": {
 			  "revision": {
 				  "rev": "1.2",
@@ -46,6 +47,7 @@
 		{
            "name": "arty-z7-20",
 		   "display": "Arty z7-20",
+		   "revision": 1.0,
 		   "revisions": {
 			  "revision": {
 				  "rev": "A.0",
