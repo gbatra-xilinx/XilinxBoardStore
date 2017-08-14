@@ -1,0 +1,48 @@
+{
+   "config": {
+      "items": {
+         "item": {
+            "infra": {
+			   "name": "arty-z7-20",
+			   "display": "Arty z7-20",			   
+			   "revision": 1.0,
+			   "revisions": {
+				  "revision": {
+					  "rev": "A.0",
+					  "date": "AUG2017",
+					  "history": "Arty z7-20 A.0 board files release."
+				  }
+			   },
+			   "description": "Digilent's Arty Z7-20 enables maker pros, engineers, system integrators, and designers to get started quickly on their embedded vision designs. The ready-to-use development platform builds on the Xilinx All Programmable SoC Zynq 7020. It is targeted at custom video applications and capable of real-time video processing through the on board 512MB DDR3 and HDMI inputs and outputs.",
+			   "company": "digilentinc.com",
+			   "company_display": "Digilent, Inc.",
+			   "author": "Xilinx",
+			   "contributors": {
+				  "contributor": [
+					 {
+						"group": "Digilent, Inc",
+						"url": "www.digilentinc.com"
+					 }
+				  ]
+			   },
+			   "category": "Single Part",
+			   "logo": "https://www.digikey.com/-/media/Images/Product%20Highlights/D/Digilent%20Inc/Arty%20Z%20board/Digilent-Arty-Z7-board-200.jpg?ts=844ff4ed-256a-4402-bea1-78a1e9a18b5e&la=en-US",
+			   "website": "https://www.digikey.com/en/product-highlight/d/digilent/arty-z-board",
+			   "search-keywords": {
+					"keyword" : [
+							"arty z7-20",
+							"arty",
+							"digilentinc",
+							"digikey",
+							"digilent",
+							"board",
+							"zynq-7000",
+							"all programmable SoC"
+					]                       
+				}              
+            }
+         }
+      },
+      "_major": 1,
+      "_minor": 0
+   }

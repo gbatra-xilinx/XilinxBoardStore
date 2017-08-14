@@ -1,0 +1,49 @@
+{
+   "config": {
+      "items": {
+         "item": {
+            "infra": {
+			   "name": "microzed",
+			   "display": "Microzed",
+			   "revision": 1.3,
+			   "revisions": {
+				  "revision": {
+					  "rev": "1.3",
+					  "date": "AUG2017",
+					  "history": "Microzed 1.3 board files release."
+				  }
+			   },
+			   "description": "MicroZed™ is a low-cost development board based on the Xilinx Zynq®-7000 All Programmable SoC. \n\t\t\t\t\t\t\t Its unique design allows it to be used as both a stand-alone evaluation board for basic SoC \n\t\t\t\t\t\t\t experimentation, or combined with a carrier card as an embeddable system-on-module (SOM). \n\t\t\t\t\t\t\t MicroZed contains two I/O headers that provide connection to two I/O banks on the programmable logic (PL)\n\t\t\t\t\t\t\t side of the Zynq®-7000 All Programmable SoC device. In stand-alone mode, these 100 PL I/O are inactive. \n\t\t\t\t\t\t\t When plugged into a carrier card, the I/O are accessible in a manner defined by the carrier card design.",
+			   "company": "em.avnet.com",
+			   "company_display": "AVNET",
+			   "author": "Xilinx",
+			   "contributors": {
+				  "contributor": [
+					 {
+						"group": "Avnet",
+						"url": "www.avnet.com"
+					 },
+					 {
+						"group": "Xilinx",
+						"url": "http://www.xilinx.com"
+					 }
+				  ]
+			   },
+			   "category": "Single Part",
+			   "logo": "http://zedboard.org/sites/default/files/styles/product_slider/public/product/IMG_0015_0_0.png?itok=co0OGp3p",
+			   "website": "http://zedboard.org/product/microzed",
+			   "search-keywords": {
+					"keyword" : [
+							"microzed",
+							"avnet",
+							"board",
+							"zynq-7000",
+							"all programmable SoC"
+					]                       
+				}              
+            }
+         }
+      },
+      "_major": 1,
+      "_minor": 0
+   }
