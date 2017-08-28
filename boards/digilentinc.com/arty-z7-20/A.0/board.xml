@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?> 
 <board schema_version="2.0" vendor="digilentinc.com" name="arty-z7-20" display_name="Arty Z7-20" url="http://www.digilentinc.com" preset_file="preset.xml" >
+  <images>
+    <image name="ARTY-Z7_20_Top.png" display_name="Arty Z7-20 BOARD" sub_type="board">
+      <description>Arty Z7-20 Board File Image</description>
+    </image>
+  </images>
 <compatible_board_revisions>
   <revision id="0">A.0</revision>
 </compatible_board_revisions>
