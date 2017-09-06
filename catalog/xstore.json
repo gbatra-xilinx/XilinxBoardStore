@@ -99,7 +99,26 @@
             "Multi Part",
             "Daughter Card",
             "Misc"
-      ],
+	  ],
+	  "scripts": {
+	  	"common_files" : [],
+	  	"install": {
+	  		"file": [],
+	  		"proc_name": "install",
+	  		"pre_scripts" : ["license_check"],
+	  		"post_scripts" : []
+	  	},
+	  	"uninstall": {
+	  		"file": [],
+	  		"proc_name": "uninstall",
+	  		"pre_scripts" : [],
+	  		"post_scripts" : []
+	  	},
+	  	"license_check": {
+	  		"file": [],
+	  		"proc_name": "license_check"
+	  	}
+	  },
       "_major": 1,
       "_minor": 0
    }
