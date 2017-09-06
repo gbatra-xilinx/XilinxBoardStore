@@ -101,7 +101,7 @@
             "Misc"
 	  ],
 	  "scripts": {
-	  	"common_files" : [],
+	  	"common_files" : ["support/hook.tcl"],
 	  	"install": {
 	  		"file": [],
 	  		"proc_name": "install",
@@ -115,7 +115,7 @@
 	  		"post_scripts" : []
 	  	},
 	  	"license_check": {
-	  		"file": [],
+	  		"file": ["support/license_check.tcl"],
 	  		"proc_name": "license_check"
 	  	}
 	  },
