@@ -39,10 +39,18 @@
 							"zynq-7000",
 							"all programmable SoC"
 					]                       
-				}              
+				},
+				"dependencies" : [
+					{
+						"store" : "board",
+						"item" : "microzed",
+						"revision": "1.3"
+					}
+				]              
             }
          }
       },
       "_major": 1,
       "_minor": 0
    }
+}
