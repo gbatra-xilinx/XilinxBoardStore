@@ -8,4 +8,4 @@
 # script is sourced, the variable $dir must contain the
 # full path name of this file's directory.
 
-package ifneeded ::xhub::board::support 1.0 [list source [file join $dir hook.tcl]]
+package ifneeded ::xhub::board::support 1.0 [list source [file join $dir hook.tcl]]\n[list source [file join $dir license_check.tcl]]
