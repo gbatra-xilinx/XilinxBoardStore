@@ -14,4 +14,14 @@ proc ::xhub::board::support::uninstall {xitem xstore} {
     puts "Test call to uninstall proc !"
 }
 
+proc ::xhub::board::support::init {xstore} {
+    set name [get_property NAME $xstore]
+    puts "$name is being initialized"
+}
+
+proc ::xhub::board::support::uninit {xstore} {
+    set name [get_property NAME $xstore]
+    puts "$name is being uninitialized"
+}
+
 package provide ::xhub::board::support 1.0
