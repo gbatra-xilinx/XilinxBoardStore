@@ -102,6 +102,10 @@
 	  ],
 	  "scripts": {
 	  	"common_files" : ["support/hook.tcl"],
+		"init" : {
+			"file": [],
+			"proc_name": "init"
+		},
 	  	"install": {
 	  		"file": [],
 	  		"proc_name": "install",
@@ -114,6 +118,10 @@
 	  		"pre_scripts" : [],
 	  		"post_scripts" : []
 	  	},
+		"uninit": {
+			"file": [],
+			"proc_name": "uninit"
+		},
 	  	"license_check": {
 	  		"file": ["support/license_check.tcl"],
 	  		"proc_name": "license_check"
