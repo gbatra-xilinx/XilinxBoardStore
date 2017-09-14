@@ -16,12 +16,16 @@ proc ::xhub::board::support::uninstall {xitem xstore} {
 
 proc ::xhub::board::support::init {xstore} {
     set name [get_property NAME $xstore]
-    puts "$name is being initialized"
+    puts "$name store is being initialized"
+    set storeRootDir [get_property USER_REPO_PATH $xstore]
+    set boardRepoPath [file join $storeRootDir "boards"]
+    set current_board_repo_paths [get_param board.repoPaths]
+    set_param board.repoPaths "$current_board_repo_paths $boardRepoPath"
 }
 
 proc ::xhub::board::support::uninit {xstore} {
     set name [get_property NAME $xstore]
-    puts "$name is being uninitialized"
+    puts "$name store is being uninitialized"
 }
 
 package provide ::xhub::board::support 1.0
