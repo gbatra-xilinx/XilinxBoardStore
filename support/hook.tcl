@@ -13,6 +13,7 @@ proc ::xhub::board::support::uninstall {xitem xstore} {
     set store_name [get_property NAME $xstore]
     puts "$item_name item of $store_name is uninstalled"
     puts "Test call to uninstall proc !"
+    setBoardRepoPath $xitem $xstore
 }
 
 proc ::xhub::board::support::init {xstore} {
