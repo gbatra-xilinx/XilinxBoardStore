@@ -29,7 +29,7 @@ proc ::xhub::board::support::uninit {xstore} {
     puts "$name store is being uninitialized"
 }
 
-proc setBoardRepoPath {xitem xstore} {    
+proc ::xhub::board::support::setBoardRepoPath {xitem xstore} {    
     set storeRootDir [get_property USER_REPO_PATH $xstore]
     set boardRepoPath [file join $storeRootDir "boards"]
 
@@ -51,4 +51,5 @@ proc setBoardRepoPath {xitem xstore} {
         set_param board.repoPaths "$current_board_repo_paths $boardRepoPath"
     }
 }
+
 package provide ::xhub::board::support 1.0
