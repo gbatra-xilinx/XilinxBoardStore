@@ -7,15 +7,27 @@
       	{
            "name": "microzed",
 		   "display": "Microzed",
-		   "commit_id" : "650d58204f92f7da830d1916c426e52084d44f5f",
-		   "revision": 1.3,
-		   "revisions": {
-			  "revision": {
-				  "rev": "1.3",
+		   "latest_revision": "1.3",
+		   "revisions": [
+			  {
+				  "revision": "1.3",
+				  "commit_id" : "650d58204f92f7da830d1916c426e52084d44f5f",
 				  "date": "AUG2017",
-				  "history": "Microzed 1.3 board files release."
+				  "history": "Microzed 1.3 board files release.",
+				  "dependencies": [
+					    {
+							"store": "board",
+							"item": "cmod-a7-15t",
+							"revision": "2.0"
+					    },
+					    {
+							"store": "board",
+							"item": "nexys4",
+							"revision": "2.1"
+					    }
+				   ]
 			  }
-		   },
+		   ],
 		   "config" : {
 				"root" : "boards/em.avnet.com/microzed",
 				"metadata_file": "xitem.json"
@@ -51,20 +63,27 @@
 		},
 		{
            "name": "arty-z7-20",
-		   "display": "Arty z7-20",
-		   "commit_id" : "650d58204f92f7da830d1916c426e52084d44f5f",
-		   "revision": 1.0,
+		   "display": "Arty z7-20",		   
+		   "latest_revision": "1.0",
 		   "config" : {
 				"root" : "boards/digilentinc.com/arty-z7-20",
 				"metadata_file": "xitem.json"
 	   	   },
-		   "revisions": {
-			  "revision": {
-				  "rev": "A.0",
+		   "revisions": [
+			   {
+				  "revision": "1.0",
+				  "commit_id" : "650d58204f92f7da830d1916c426e52084d44f5f",
 				  "date": "AUG2017",
-				  "history": "Arty z7-20 A.0 board files release."
-			  }
-		   },
+				  "history": "Arty z7-20 A.0 board files release.",
+				  "dependencies": [
+					{
+					  "store": "board",
+					  "item": "microzed",
+					  "revision": "1.3"
+					}
+				  ]
+			   }
+			],
 		   "description": "Digilent's Arty Z7-20 enables maker pros, engineers, system integrators, and designers to get started quickly on their embedded vision designs. The ready-to-use development platform builds on the Xilinx All Programmable SoC Zynq 7020. It is targeted at custom video applications and capable of real-time video processing through the on board 512MB DDR3 and HDMI inputs and outputs.",
 		   "company": "digilentinc.com",
 		   "company_display": "Digilent, Inc.",
@@ -95,19 +114,26 @@
 		},
 		{
 			"name": "cmod-a7-15t",
-			"display": "Cmod a7-15t",
-			"commit_id" : "650d58204f92f7da830d1916c426e52084d44f5f",
-			"revision": 2.0,
+			"display": "Cmod a7-15t",			
+			"latest_revision": "2.0",
 			"config" : {
 				"root" : "boards/digilentinc.com/cmod-a7-15t",
 				"metadata_file": "xitem.json"
 	   	    },
 			"revisions": [
-			  {
-				"rev": "B.0",
-				"date": "SEP2017",
-				"history": "Cmod a7-15t B.0 board files release."
-			  }
+				{
+					"revision": "2.0",
+					"commit_id" : "650d58204f92f7da830d1916c426e52084d44f5f",
+					"date": "SEP2017",
+					"history": "Cmod a7-15t B.0 board files release.",
+					"dependencies": [
+						{
+							"store": "board",
+							"item": "zybo",
+							"revision": "2.3"
+						}
+					]
+			  	}
 			],
 			"description": "The Digilent Cmod A7 is a small, breadboard friendly 48-pin DIP form factor board built around a Xilinx Artix-7 FPGA. \nThe board also includes a USB-JTAG programming circuit, USB-UART bridge, clock source, Pmod host connector, SRAM, Quad-SPI Flash, and basic I/O devices. \nThese components make it a formidable, albeit compact, platform for digital logic circuits and MicroBlaze embedded soft-core processor designs using Xilinx's development software, Vivado. \nThere are 44 Digital FPGA I/O signals and two FPGA Analog inputs that are routed to 100-mil-spaced through-hole pins so that you can integrate your programmable logic design directly into a solderless breadboard circuit. \nAt just 0.7” by 2.75”, it can also be loaded in a standard socket and used in embedded systems.",
 			"company": "digilentinc.com",
@@ -135,18 +161,25 @@
 		},
 		{
 			"name": "nexys4",
-			"display": "Nexys 4",
-			"commit_id" : "650d58204f92f7da830d1916c426e52084d44f5f",
-			"revision": 2.1,
+			"display": "Nexys 4",			
+			"latest_revision": "2.1",
 			"config" : {
 				"root" : "boards/digilentinc.com/nexys4",
 				"metadata_file": "xitem.json"
 	   	    },
 			"revisions": [
 			  {
-				"rev": "B.1",
+				"revision": "2.1",
+				"commit_id" : "650d58204f92f7da830d1916c426e52084d44f5f",
 				"date": "SEP2017",
-				"history": "Nexys 4 B.1 board files release."
+				"history": "Nexys 4 B.1 board files release.",
+				"dependencies": [
+					{
+					  "store": "board",
+					  "item": "zybo",
+					  "revision": "2.3"
+					}
+				]  
 			  }
 			],
 			"description": "The Nexys 4 board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7 Field Programmable Gate Array (FPGA) from Xilinx. \nThe Artix-7 FPGA is optimized for high performance logic and offers more capacity, higher performance, and more resources than earlier designs. \nWith its large, high-capacity FPGA (Xilinx part number XC7A100T-1CSG324C), generous external memories, and collection of USB, Ethernet, and other ports, the Nexys 4 can host designs ranging from introductory combinational circuits to powerful embedded processors.",
@@ -175,18 +208,25 @@
 		},
 		{
 			"name": "zybo",
-			"display": "ZYBO",
-			"commit_id" : "650d58204f92f7da830d1916c426e52084d44f5f",
-			"revision": 2.3,
+			"display": "ZYBO",			
+			"latest_revision": "2.3",
 			"config" : {
 				"root" : "boards/digilentinc.com/zybo",
 				"metadata_file": "xitem.json"
 	   	    },
 			"revisions": [
 			  {
-				"rev": "B.3",
+				"revision": "2.3",
+				"commit_id" : "650d58204f92f7da830d1916c426e52084d44f5f",
 				"date": "SEP2017",
-				"history": "ZYBO B.3 board files release."
+				"history": "ZYBO B.3 board files release.",
+				"dependencies": [
+					{
+					  "store": "board",
+					  "item": "zybo",
+					  "revision": "2.3"
+					}
+				]  
 			  }
 			],
 			"description": "XUP is offering the Digilent ZYBO, a Zynq based board, at an affordable academic price. \nThe board comes with several user interfaces that can be accessed through the Zynq processing system and through the programmable logic. \nUsers can build and include hardware accelerators in the programmable logic to meet bandwidth demanding applications, combined with industry leading ARM processor, lending itself to innovative, yet practical, applications in education.",
