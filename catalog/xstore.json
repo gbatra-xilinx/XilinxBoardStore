@@ -246,6 +246,10 @@
 	  		"file": [],
 	  		"proc_name": "uninit"
 	  	},
+		"uninit": {
+			"file": [],
+			"proc_name": "uninit"
+		},
 	  	"license_check": {
 	  		"file": [
 	  			"support/license_check.tcl"
