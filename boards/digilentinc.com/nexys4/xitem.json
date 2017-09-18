@@ -1,0 +1,52 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "nexys4",
+          "display": "Nexys 4",
+          "revision": 2.1,
+          "revisions": [
+            {
+              "rev": "B.1",
+              "date": "SEP2017",
+              "history": "Nexys 4 B.1 board files release."
+            }
+          ],
+          "description": "The Nexys 4 board is a complete, ready-to-use digital circuit development platform based on the latest Artix-7 Field Programmable Gate Array (FPGA) from Xilinx. \nThe Artix-7 FPGA is optimized for high performance logic and offers more capacity, higher performance, and more resources than earlier designs. \nWith its large, high-capacity FPGA (Xilinx part number XC7A100T-1CSG324C), generous external memories, and collection of USB, Ethernet, and other ports, the Nexys 4 can host designs ranging from introductory combinational circuits to powerful embedded processors.",
+          "company": "digilentinc.com",
+          "company_display": "Digilent, Inc.",
+          "author": "Xilinx",
+          "contributors": [
+            {
+              "group": "Digilent, Inc",
+              "url": "www.digilentinc.com"
+            }
+          ],
+
+          "category": "Single Part",
+          "logo": "https://www.xilinx.com/content/dam/xilinx/imgs/prime/Nexys4-Xilinx-1000x755.jpg.thumb.319.319.png",
+          "website": "https://www.xilinx.com/products/boards-and-kits/1-3yznp5.html",
+          "search-keywords": [
+            "nexys4",
+            "nexys",
+            "digilentinc",
+            "digikey",
+            "digilent",
+            "board",
+            "artix 7"
+          ],
+          "dependencies": [
+            {
+              "store": "board",
+              "item": "zybo",
+              "revision": "2.3"
+            }
+          ]            
+        }
+      }
+    ],
+    "_major": 1,
+    "_minor": 0
+  }   
+}

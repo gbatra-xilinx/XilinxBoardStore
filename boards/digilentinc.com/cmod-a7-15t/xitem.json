@@ -1,0 +1,52 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "cmod-a7-15t",
+          "display": "Cmod a7-15t",
+          "revision": 2.0,
+          "revisions": [
+            {
+              "rev": "B.0",
+              "date": "SEP2017",
+              "history": "Cmod a7-15t B.0 board files release."
+            }
+          ],
+          "description": "The Digilent Cmod A7 is a small, breadboard friendly 48-pin DIP form factor board built around a Xilinx Artix-7 FPGA. \nThe board also includes a USB-JTAG programming circuit, USB-UART bridge, clock source, Pmod host connector, SRAM, Quad-SPI Flash, and basic I/O devices. \nThese components make it a formidable, albeit compact, platform for digital logic circuits and MicroBlaze embedded soft-core processor designs using Xilinx's development software, Vivado. \nThere are 44 Digital FPGA I/O signals and two FPGA Analog inputs that are routed to 100-mil-spaced through-hole pins so that you can integrate your programmable logic design directly into a solderless breadboard circuit. \nAt just 0.7” by 2.75”, it can also be loaded in a standard socket and used in embedded systems.",
+          "company": "digilentinc.com",
+          "company_display": "Digilent, Inc.",
+          "author": "Xilinx",
+          "contributors": [
+            {
+              "group": "Digilent, Inc",
+              "url": "www.digilentinc.com"
+            }
+          ],
+
+          "category": "Single Part",
+          "logo": "https://www.xilinx.com/content/dam/xilinx/imgs/prime/Cmod%20A7-top-600.png.thumb.319.319.png",
+          "website": "https://www.xilinx.com/products/boards-and-kits/1-f3zdrn.html",
+          "search-keywords": [
+            "cmod a7-15t",
+            "cmod",
+            "digilentinc",
+            "digikey",
+            "digilent",
+            "board",
+            "all programmable SoC"
+          ],
+          "dependencies": [
+            {
+              "store": "board",
+              "item": "zybo",
+              "revision": "2.3"
+            }
+          ]            
+        }
+      }
+    ],
+    "_major": 1,
+    "_minor": 0
+  }   
+}

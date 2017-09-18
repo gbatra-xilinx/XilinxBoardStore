@@ -1,0 +1,45 @@
+{
+  "config": {
+    "items": [
+      {
+        "infra": {
+          "name": "zybo",
+          "display": "ZYBO",
+          "revision": 2.3,
+          "revisions": [
+            {
+              "rev": "B.3",
+              "date": "SEP2017",
+              "history": "ZYBO B.3 board files release."
+            }
+          ],
+          "description": "XUP is offering the Digilent ZYBO, a Zynq based board, at an affordable academic price. \nThe board comes with several user interfaces that can be accessed through the Zynq processing system and through the programmable logic. \nUsers can build and include hardware accelerators in the programmable logic to meet bandwidth demanding applications, combined with industry leading ARM processor, lending itself to innovative, yet practical, applications in education.",
+          "company": "digilentinc.com",
+          "company_display": "Digilent, Inc.",
+          "author": "Xilinx",
+          "contributors": [
+            {
+              "group": "Digilent, Inc",
+              "url": "www.digilentinc.com"
+            }
+          ],
+
+          "category": "Single Part",
+          "logo": "https://www.xilinx.com/content/dam/xilinx/support/documentation/university/XUP%20Boards/zybo_oblong.jpg.thumb.319.319.png",
+          "website": "https://www.xilinx.com/support/university/boards-portfolio/xup-boards/DigilentZYBO.html",
+          "search-keywords": [
+            "zybo",
+            "digilentinc",
+            "digikey",
+            "digilent",
+            "board",
+            "zync",
+            "arm a9"
+          ]            
+        }
+      }
+    ],
+    "_major": 1,
+    "_minor": 0
+  }   
+}
