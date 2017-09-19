@@ -31,7 +31,7 @@ proc ::xhub::board::support::uninit {xstore} {
 }
 
 proc ::xhub::board::support::setBoardRepoPath {xitem xstore} {    
-    set storeRootDir [get_property USER_REPO_PATH $xstore]
+    set storeRootDir [get_property LOCAL_ROOT_DIR $xstore]
     set boardRepoPath [file join $storeRootDir "boards"]
 
     if {$boardRepoPath != {}} {
