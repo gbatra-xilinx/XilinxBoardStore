@@ -285,7 +285,7 @@
 	  	"uninit": {
 	  		"file": [],
 	  		"proc_name": "xhub::board::support::uninit"
-	  	}
+	  	},
 	  	"license_check": {
 	  		"file": [
 	  			"support/license_check.tcl"
