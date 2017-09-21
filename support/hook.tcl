@@ -32,10 +32,15 @@ proc ::xhub::board::support::uninit {xstore} {
 
 proc ::xhub::board::support::setBoardRepoPath {xitem xstore} {    
     set storeRootDir [get_property LOCAL_ROOT_DIR $xstore]
-    set boardRepoPath [file join $storeRootDir "boards"]
-
+    set xitemRootDir [get_property XITEM_ROOT $xstore]
+    if {$xitemRootDir != {}} {
+        set boardRepoPath [file join $storeRootDir $xitemRootDir]
+    } else {
+        set boardRepoPath [$storeRootDir]
+    }  
+    
     if {$boardRepoPath != {}} {
-        set projects [get_projects]
+        set projects [get_projects -quiet]
         foreach project $projects {
             set project_board_repo_paths [get_property BOARD_PART_REPO_PATHS $project]
             regsub -all $boardRepoPath $project_board_repo_paths "" project_board_repo_paths
