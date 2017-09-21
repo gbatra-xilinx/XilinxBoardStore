@@ -266,11 +266,11 @@
 	  	],
 	  	"init": {
 	  		"file": [],
-	  		"proc_name": "init"
+	  		"proc_name": "xhub::board::support::init"
 	  	},
 	  	"install": {
 	  		"file": [],
-	  		"proc_name": "install",
+	  		"proc_name": "xhub::board::support::install",
 	  		"pre_scripts": [
 	  			"license_check"
 	  		],
@@ -278,18 +278,14 @@
 	  	},
 	  	"uninstall": {
 	  		"file": [],
-	  		"proc_name": "uninstall",
+	  		"proc_name": "xhub::board::support::uninstall",
 	  		"pre_scripts": [],
 	  		"post_scripts": []
 	  	},
 	  	"uninit": {
 	  		"file": [],
-	  		"proc_name": "uninit"
-	  	},
-		"uninit": {
-			"file": [],
-			"proc_name": "uninit"
-		},
+	  		"proc_name": "xhub::board::support::uninit"
+	  	}
 	  	"license_check": {
 	  		"file": [
 	  			"support/license_check.tcl"
