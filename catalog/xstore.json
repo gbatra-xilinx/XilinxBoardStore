@@ -229,7 +229,7 @@
 				]  
 			  }
 			],
-			"description": "XUP is offering the Digilent ZYBO, a Zynq based board, at an affordable academic price. \nThe board comes with several user interfaces that can be accessed through the Zynq processing system and through the programmable logic. \nUsers can build and include hardware accelerators in the programmable logic to meet bandwidth demanding applications, combined with industry leading ARM processor, lending itself to innovative, yet practical, applications in education.",
+			"description": "XUP is offering the Digilent ZYBO, a Zynq board, at an affordable academic price. \nThe board comes with several user interfaces that can be accessed through the Zynq processing system and through the programmable logic. \nUsers can build and include hardware accelerators in the programmable logic to meet bandwidth demanding applications, combined with industry leading ARM processor, lending itself to innovative, yet practical, applications in education.",
 			"company": "digilentinc.com",
 			"company_display": "Digilent, Inc.",
 			"author": "Xilinx",
