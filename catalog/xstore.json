@@ -254,12 +254,33 @@
 			]
 		}
       ],
-      "categories": [
-            "Single Part",
-            "Multi Part",
-            "Daughter Card",
-            "Misc"
-	  ],
+	"categories" : [
+	    {
+		"name": "single_part",
+		"display_name": "Single Part",
+		"description": "This category represents all the boards which have single part",
+		"parent": []
+	    },
+	    {
+		"name": "multi_part",
+		"display_name": "Multi Part",
+		"description": "This category represents all the boards which have multi part",
+		"parent": []
+	    },
+	    {
+		"name": "daughter_card",
+		"display_name": "Daughter Card",
+		"description": "This category represents all the boards which are daughter cards",
+		"parent": []
+	    },
+	    {
+		"name": "misc",
+		"display_name": "Misc",
+		"description": "This category represents miscellaneous variety of boards",
+		"default": true,
+		"parent": []
+	    }
+	],
 	  "scripts": {
 	  	"common_files": [
 	  		"support/hook.tcl"
