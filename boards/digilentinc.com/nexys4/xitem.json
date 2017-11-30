@@ -35,14 +35,7 @@
             "digilent",
             "board",
             "artix 7"
-          ],
-          "dependencies": [
-            {
-              "store": "board",
-              "item": "zybo",
-              "revision": "2.3"
-            }
-          ]            
+          ]           
         }
       }
     ],

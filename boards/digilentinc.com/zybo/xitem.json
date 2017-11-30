@@ -35,13 +35,6 @@
             "board",
             "zync",
             "arm a9"
-          ],
-          "dependencies": [
-            {
-              "store": "board",
-              "item": "arty-z7-20",
-              "revision": "1.0"
-            }
           ]
         }
       }
