@@ -35,13 +35,6 @@
             "digilent",
             "board",
             "all programmable SoC"
-          ],
-          "dependencies": [
-            {
-              "store": "board",
-              "item": "zybo",
-              "revision": "2.3"
-            }
           ]            
         }
       }

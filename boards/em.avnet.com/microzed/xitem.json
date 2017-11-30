@@ -33,18 +33,6 @@
                                                                            "board",
                                                                            "zynq-7000",
                                                                            "all programmable SoC"
-                                                            ],
-                                                            "dependencies": [
-                                                              {
-                                                                "store": "board",
-                                                                "item": "cmod-a7-15t",
-                                                                "revision": "2.0"
-                                                              },
-                                                              {
-                                                                "store": "board",
-                                                                "item": "nexys4",
-                                                                "revision": "2.1"
-                                                              }
                                                             ]
                                              }
                               }],
