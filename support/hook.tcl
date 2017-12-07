@@ -36,7 +36,7 @@ proc ::xhub::board::support::setBoardRepoPath {xitem xstore} {
     if {$xitemRootDir != {}} {
         set boardRepoPath [file join $storeRootDir $xitemRootDir]
     } else {
-        set boardRepoPath [$storeRootDir]
+        set boardRepoPath "$storeRootDir"
     }  
     
     if {$boardRepoPath != {}} {
