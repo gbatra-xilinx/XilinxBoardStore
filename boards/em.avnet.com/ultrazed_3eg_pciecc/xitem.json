@@ -10,7 +10,7 @@
                                                                            "date": "DEC2017",
                                                                            "history": "UltraZed PCIe Carrier Card 1.0 board files release."
                                                             }],
-                                                            "description": "The UltraZed PCIe Carrier Card supports the UltraZed-EG¿ System-on-Module (SOM), providing easy access to the full 180 user I/O, 26 PS MIO, and 4 PS GTR transceivers available from the UltraZed-EG SOM via three Micro Headers. Two 140-pin Micro Headers on the carrier card mate with the UltraZed-EG SOM, connecting 180 of the UltraZed-EG Programmable Logic (PL) I/O to 2 Digilent Pmod¿ compatible interfaces, FMC LPC slot, LVDS Touch Panel interface, push button switches, DIP switches, LEDs, Xilinx SYSMON, and clock oscillator.",
+                                                            "description": "The UltraZed PCIe Carrier Card supports the UltraZed-EGÂ¿ System-on-Module (SOM), providing easy access to the full 180 user I/O, 26 PS MIO, and 4 PS GTR transceivers available from the UltraZed-EG SOM via three Micro Headers. Two 140-pin Micro Headers on the carrier card mate with the UltraZed-EG SOM, connecting 180 of the UltraZed-EG Programmable Logic (PL) I/O to 2 Digilent PmodÂ¿ compatible interfaces, FMC LPC slot, LVDS Touch Panel interface, push button switches, DIP switches, LEDs, Xilinx SYSMON, and clock oscillator.",
                                                             "company": "em.avnet.com",
                                                             "company_display": "AVNET",
                                                             "author": "Xilinx",
@@ -29,7 +29,7 @@
                                                             "website": "http://http://zedboard.org/product/ultrazed-pcie-carrier-card",
                                                             "search-keywords": [
                                                                            "ultrazed",
-                                                                           "ultrazed_3eg"
+                                                                           "ultrazed_3eg",
                                                                            "avnet",
                                                                            "board",
                                                                            "all programmable SoC"
