@@ -16,7 +16,7 @@
 					"root": "boards/em.avnet.com/microzed",
 					"metadata_file": "xitem.json"
 				},
-				"description": "MicroZed™ is a low-cost development board based on the Xilinx Zynq®-7000 All Programmable SoC. \n\t\t\t\t\t\t\t Its unique design allows it to be used as both a stand-alone evaluation board for basic SoC \n\t\t\t\t\t\t\t experimentation, or combined with a carrier card as an embeddable system-on-module (SOM). \n\t\t\t\t\t\t\t MicroZed contains two I/O headers that provide connection to two I/O banks on the programmable logic (PL)\n\t\t\t\t\t\t\t side of the Zynq®-7000 All Programmable SoC device. In stand-alone mode, these 100 PL I/O are inactive. \n\t\t\t\t\t\t\t When plugged into a carrier card, the I/O are accessible in a manner defined by the carrier card design.",
+				"description": "MicroZedâ„¢ is a low-cost development board based on the Xilinx ZynqÂ®-7000 All Programmable SoC. \n\t\t\t\t\t\t\t Its unique design allows it to be used as both a stand-alone evaluation board for basic SoC \n\t\t\t\t\t\t\t experimentation, or combined with a carrier card as an embeddable system-on-module (SOM). \n\t\t\t\t\t\t\t MicroZed contains two I/O headers that provide connection to two I/O banks on the programmable logic (PL)\n\t\t\t\t\t\t\t side of the ZynqÂ®-7000 All Programmable SoC device. In stand-alone mode, these 100 PL I/O are inactive. \n\t\t\t\t\t\t\t When plugged into a carrier card, the I/O are accessible in a manner defined by the carrier card design.",
 				"company": "em.avnet.com",
 				"company_display": "AVNET",
 				"author": "Xilinx",
@@ -59,7 +59,7 @@
 					"root": "boards/em.avnet.com/minized",
 					"metadata_file": "xitem.json"
 				},
-				"description": "MiniZed� is a single-core Zynq 7Z007S development board. This board targets entry-level Zynq developers with a low-cost prototyping platform.",
+				"description": "MiniZed¿ is a single-core Zynq 7Z007S development board. This board targets entry-level Zynq developers with a low-cost prototyping platform.",
 				"company": "em.avnet.com",
 				"company_display": "AVNET",
 				"author": "Xilinx",
@@ -100,7 +100,7 @@
 					"root": "boards/em.avnet.com/ultrazed_3eg_som",
 					"metadata_file": "xitem.json"
 				},
-				"description": "UltraZed-EG� SOM is a highly flexible, rugged, System-On-Module (SOM) based on the Xilinx Zynq� UltraScale+� MPSoC.",
+				"description": "UltraZed-EG¿ SOM is a highly flexible, rugged, System-On-Module (SOM) based on the Xilinx Zynq® UltraScale+¿ MPSoC.",
 				"company": "em.avnet.com",
 				"company_display": "AVNET",
 				"author": "Xilinx",
@@ -144,7 +144,7 @@
 					"root": "boards/em.avnet.com/ultrazed_3eg_iocc",
 					"metadata_file": "xitem.json"
 				},
-				"description": "The UltraZed IO Carrier Card supports the UltraZed-EG� System-on-Module (SOM), providing easy access to the full 180 user I/O, 26 PS MIO, and 4 PS GTR transceivers available from the UltraZed-EG SOM via three Micro Headers. Two 140-pin Micro Headers on the carrier card mate with the UltraZed-EG SOM, connecting 180 of the UltraZed-EG Programmable Logic (PL) I/O to 12 Digilent Pmod� compatible interfaces, Arduino Shield, LVDS Touch Panel interface, push button switches, DIP switches, LEDs, Xilinx SYSMON, and clock oscillator.",
+				"description": "The UltraZed IO Carrier Card supports the UltraZed-EG¿ System-on-Module (SOM), providing easy access to the full 180 user I/O, 26 PS MIO, and 4 PS GTR transceivers available from the UltraZed-EG SOM via three Micro Headers. Two 140-pin Micro Headers on the carrier card mate with the UltraZed-EG SOM, connecting 180 of the UltraZed-EG Programmable Logic (PL) I/O to 12 Digilent Pmod¿ compatible interfaces, Arduino Shield, LVDS Touch Panel interface, push button switches, DIP switches, LEDs, Xilinx SYSMON, and clock oscillator.",
 				"company": "em.avnet.com",
 				"company_display": "AVNET",
 				"author": "Xilinx",
@@ -187,7 +187,7 @@
 					"root": "boards/em.avnet.com/ultrazed_3eg_pciecc",
 					"metadata_file": "xitem.json"
 				},
-				"description": "The UltraZed PCIe Carrier Card supports the UltraZed-EG� System-on-Module (SOM), providing easy access to the full 180 user I/O, 26 PS MIO, and 4 PS GTR transceivers available from the UltraZed-EG SOM via three Micro Headers. Two 140-pin Micro Headers on the carrier card mate with the UltraZed-EG SOM, connecting 180 of the UltraZed-EG Programmable Logic (PL) I/O to 2 Digilent Pmod� compatible interfaces, FMC LPC slot, LVDS Touch Panel interface, push button switches, DIP switches, LEDs, Xilinx SYSMON, and clock oscillator.",
+				"description": "The UltraZed PCIe Carrier Card supports the UltraZed-EG¿ System-on-Module (SOM), providing easy access to the full 180 user I/O, 26 PS MIO, and 4 PS GTR transceivers available from the UltraZed-EG SOM via three Micro Headers. Two 140-pin Micro Headers on the carrier card mate with the UltraZed-EG SOM, connecting 180 of the UltraZed-EG Programmable Logic (PL) I/O to 2 Digilent Pmod¿ compatible interfaces, FMC LPC slot, LVDS Touch Panel interface, push button switches, DIP switches, LEDs, Xilinx SYSMON, and clock oscillator.",
 				"company": "em.avnet.com",
 				"company_display": "AVNET",
 				"author": "Xilinx",
@@ -208,7 +208,7 @@
 				"search-keywords": {
 					"keyword": [
              "ultrazed",
-             "ultrazed_3eg"
+             "ultrazed_3eg",
              "avnet",
              "board",
              "all programmable SoC"
@@ -270,7 +270,7 @@
 					"date": "SEP2017",
 					"history": "Cmod a7-15t B.0 board files release."
 				}],
-				"description": "The Digilent Cmod A7 is a small, breadboard friendly 48-pin DIP form factor board built around a Xilinx Artix-7 FPGA. \nThe board also includes a USB-JTAG programming circuit, USB-UART bridge, clock source, Pmod host connector, SRAM, Quad-SPI Flash, and basic I/O devices. \nThese components make it a formidable, albeit compact, platform for digital logic circuits and MicroBlaze embedded soft-core processor designs using Xilinx's development software, Vivado. \nThere are 44 Digital FPGA I/O signals and two FPGA Analog inputs that are routed to 100-mil-spaced through-hole pins so that you can integrate your programmable logic design directly into a solderless breadboard circuit. \nAt just 0.7” by 2.75”, it can also be loaded in a standard socket and used in embedded systems.",
+				"description": "The Digilent Cmod A7 is a small, breadboard friendly 48-pin DIP form factor board built around a Xilinx Artix-7 FPGA. \nThe board also includes a USB-JTAG programming circuit, USB-UART bridge, clock source, Pmod host connector, SRAM, Quad-SPI Flash, and basic I/O devices. \nThese components make it a formidable, albeit compact, platform for digital logic circuits and MicroBlaze embedded soft-core processor designs using Xilinx's development software, Vivado. \nThere are 44 Digital FPGA I/O signals and two FPGA Analog inputs that are routed to 100-mil-spaced through-hole pins so that you can integrate your programmable logic design directly into a solderless breadboard circuit. \nAt just 0.7â€ by 2.75â€, it can also be loaded in a standard socket and used in embedded systems.",
 				"company": "digilentinc.com",
 				"company_display": "Digilent, Inc.",
 				"author": "Xilinx",
