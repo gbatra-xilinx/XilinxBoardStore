@@ -32,8 +32,8 @@
             "cmod",
             "digilentinc",
             "digikey",
+            "board",            
             "digilent",
-            "board",
             "all programmable SoC"
           ]            
         }
