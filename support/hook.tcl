@@ -8,6 +8,29 @@ proc ::xhub::board::support::install {xitem xstore} {
     setBoardRepoPath $xitem $xstore
 }
 
+proc ::xhub::board::support::canUninstall {xitem xstore} {
+    set board_name [getBoard $xitem]
+    set current_projects [get_projects]
+
+    foreach project $current_projects {
+        set project_name [get_property NAME $project]
+        set board_part [get_property BOARD_PART $project]
+        set board [split $board_part ":"]
+
+        set vendor [lindex $board 0]
+        set name [lindex $board 1]
+        set revision [lindex $board 3]
+
+        set project_board_name "$vendor\:$name\:$revision"
+        puts "Project board name $project_board_name"
+        if {$project_board_name eq $board_name} {
+            puts "Can't uninstall board '$board_name' as it is currently being used by project '$project_name'.\nClose project '$project_name' and try again"
+            return false
+        }
+    }
+    return true
+}
+
 proc ::xhub::board::support::uninstall {xitem xstore} {
     set item_name [get_property NAME $xitem]
     set store_name [get_property NAME $xstore]
@@ -56,6 +79,15 @@ proc ::xhub::board::support::setBoardRepoPath {xitem xstore} {
         set_param board.repoPaths "$current_board_repo_paths"
         set_param board.repoPaths "$current_board_repo_paths $boardRepoPath"
     }
+}
+
+proc ::xhub::board::support::getBoard {xitem} {
+    set name [get_property SHORT_NAME $xitem]
+    set company [get_property COMPANY $xitem]
+    set revision [get_property REVISION $xitem]
+
+    set board_name "$company\:$name\:$revision"
+    return $board_name
 }
 
 package provide ::xhub::board::support 1.0
