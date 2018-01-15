@@ -15,20 +15,15 @@ proc ::xhub::board::support::canUninstall {xitem xstore} {
     foreach project $current_projects {
         set project_name [get_property NAME $project]
         set board_part [get_property BOARD_PART $project]
-        set board [split $board_part ":"]
 
-        set vendor [lindex $board 0]
-        set name [lindex $board 1]
-        set revision [lindex $board 3]
-
-        set project_board_name "$vendor\:$name\:$revision"
-        puts "Project board name $project_board_name"
-        if {$project_board_name eq $board_name} {
-            puts "Can't uninstall board '$board_name' as it is currently being used by project '$project_name'.\nClose project '$project_name' and try again"
-            return false
+        if { $board_part != {}} {
+            set project_board_name [get_property NAME [get_boards -of_objects [get_board_parts $board_part]]]
+            if {$project_board_name eq $board_name} {
+                return "Can't uninstall board '$board_name' as it is currently being used by project '$project_name'.\nClose project '$project_name' and try again"
+            }
         }
     }
-    return true
+    return ""
 }
 
 proc ::xhub::board::support::uninstall {xitem xstore} {
