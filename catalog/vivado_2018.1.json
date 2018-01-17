@@ -50,11 +50,10 @@
 				"display": "Minized",
 				"latest_revision": "1.2",
 				"revisions": [{
-					"revision": "1.3",
+					"revision": "1.2",
 					"commit_id": "",
-          "date": "DEC2017",
-          "history": "Minized 1.2 board files release."
-					
+          				"date": "DEC2017",
+          				"history": "Minized 1.2 board files release."					
 				}],
 				"config": {
 					"root": "boards/em.avnet.com/minized",
